@@ -1,5 +1,5 @@
 {
-  "name": "random-animal-name-generator",
+  "name": "js-random-animal-name-generator",
   "version": "1.0.0",
   "description": "Generate random animal name like happy-yellow-cow",
   "main": "index.js",
