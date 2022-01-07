@@ -21,7 +21,7 @@ const GetRandom = (data: string[]): string => {
 };
 
 const FormatKebabCase = (data: string[]): string => {
-  return data.join('-').replace(' ', '-').toLowerCase();
+  return data.join('-').replace(/\s/, '-').toLowerCase();
 };
 
 export default GenerateRandomName;
