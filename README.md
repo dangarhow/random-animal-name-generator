@@ -1,6 +1,6 @@
 # Random Animal Name Generator
 
-This simple tool just generates a random animal name following this structure: `[emotion/feeling adjective]-[color]-[animal]`. For example: `happy-yellow-cow`.
+This simple tool just generates a random animal name following this structure: `[emotion/feeling adjective]-[emotion/feeling adjective]-[color]-[animal]`. For example: `happy-crazy-yellow-cow`.
 
 Perfect if you need to generate random usernames or other random needs.
 

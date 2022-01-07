@@ -11,3 +11,13 @@ test('Custom formatter', () => {
   };
   expect(GenerateRandomName(allUpperCase)).toMatch(/[A-Z]/);
 });
+
+test('Modify adjectives', () => {
+  const adjectiveCount = (data: string[]): string => {
+    return 'length' + data.length;
+  };
+  expect(GenerateRandomName(adjectiveCount, 2)).toBe('length4');
+  expect(GenerateRandomName(adjectiveCount, 0)).toBe('length2');
+  expect(GenerateRandomName(adjectiveCount, -2)).toBe('length2');
+  expect(GenerateRandomName(adjectiveCount, 5)).toBe('length7');
+});
