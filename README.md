@@ -10,16 +10,16 @@ There are in total  16.873.627(233*521*139) possible combinations.
 # How to use
 Import the package:
 
-`yarn add random-animal-name-generator`
+`yarn add js-random-animal-name-generator`
 
 or
 
-`npm install random-animal-name-generator`
+`npm install js-random-animal-name-generator`
 
 and then just invoke the method:
 
 ```
-import GenerateRandomName from 'random-animal-name-generator' 
+import GenerateRandomName from 'js-random-animal-name-generator' 
 const randomAnimalName = GenerateRandomName();
 ```
 
