@@ -1,8 +1,8 @@
 {
   "name": "js-random-animal-name-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate random animal name like happy-yellow-cow",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
