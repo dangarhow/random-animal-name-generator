@@ -31,5 +31,33 @@ By default, it applies lower case and kebab case. You can pass as a parameter to
 
 If no formatter is passed, the default formatting applies
 
+# Number of adjectives
+
+`GenerateRandomName` accepts a second parameter which defines the amount of adjectives (without counting color) it should have. Default value is 2.
+
+# Examples
+
+### No adjectives, only color and animal
+
+`const randomAnimalName = GenerateRandomName(undefined,0)` (0 or any number below 0 has the same effect)
+
+### 3 adjectives, default formatter
+
+`const randomAnimalName = GenerateRandomName(undefined,0)`
+
+### 2 adjectives, default formatter
+
+`const randomAnimalName = GenerateRandomName()` (default values)
+
+### Custom formatter, 1 adjective
+
+```
+const customFormatter = (data:string[]):string => {
+    return data.join("_");
+}
+const randomAnimalName = GenerateRandomName(customFormatter,1)
+```
+
 # Resources
+
 Followed the following guide to quickly set up this project and publish the package: `https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c`
